@@ -1,0 +1,33 @@
+.userDetail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 200rem;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Adjust the max-height as needed */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.description {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
